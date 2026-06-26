@@ -26,12 +26,12 @@ public class Solution {
 
 public class Solution {
     public bool ContainsDuplicate(int[] nums) {
-        HashSet<int> set = new HashSet<int>();
-        foreach (int num in nums) {
-            if (set.Contains(num)) {
+        HashSet <int> set = new HashSet <int>();
+        foreach(int dup in nums){
+            if(set.Contains(dup)){
                 return true;
             }
-            set.Add(num);
+            set.Add(dup);
         }
         return false;
     }
