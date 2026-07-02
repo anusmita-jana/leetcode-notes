@@ -1,4 +1,4 @@
-# 1. Problem Summery
+/* 1. Problem Summery
 # Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 # Brute Force
@@ -14,7 +14,7 @@
 # Time: O(n)
 # Space: O(n)
 
-# Solution
+# Solution */
 
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {

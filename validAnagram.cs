@@ -1,5 +1,5 @@
-# 242. problem Summary
-#. Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+/* 242. problem Summary
+ Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
  
 Solution approach:
@@ -19,7 +19,7 @@ time complexity:  O(n);
 space complexity: O(k);  where k=26
 
 
-solution: #
+solution: */
 
 public class Solution {
     public bool IsAnagram(string s, string t) {
